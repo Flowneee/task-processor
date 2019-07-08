@@ -1,0 +1,12 @@
+[package]
+name = "mul"
+version = "0.1.0"
+authors = ["Andrey Kononov <flowneee3@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+interface = { path = "../../interface" }
+
+[lib]
+name = "plugin_mul"
+crate-type = ["cdylib"]

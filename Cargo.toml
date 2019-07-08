@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "server",
+    "interface",
+    "plugins/sum",
+    "plugins/mul",
+    "plugins/fibonacci",
+]
